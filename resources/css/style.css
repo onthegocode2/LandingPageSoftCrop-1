@@ -88,6 +88,13 @@ p {
   color: rgba(16, 32, 45, 1);
   font-weight: 400;
   text-decoration: none;
+  border: 1px solid white;
   border-radius: 10px;
   transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: transparent;
+  color: white;
 }
